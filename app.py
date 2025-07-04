@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Check for API key
-openai_api_key = os.environ.get("OPENAI_API_KEY")
+openai_api_key = "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"
 if not openai_api_key:
     st.error("⚠️ No OpenAI API key found. Please set the OPENAI_API_KEY environment variable.")
     st.stop()
