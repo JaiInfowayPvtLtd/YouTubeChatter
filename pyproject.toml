@@ -6,6 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "openai>=1.78.0",
     "streamlit>=1.45.0",
+    "youtube_transcript_api>=0.6.2",  # Add this line
 ]
 
 [[tool.uv.index]]
