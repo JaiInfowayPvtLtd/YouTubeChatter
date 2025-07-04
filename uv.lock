@@ -5,6 +5,13 @@ resolution-markers = [
     "python_full_version < '3.12'",
 ]
 
+[project]
+dependencies = [
+    "streamlit==1.45.0",
+    "youtube_transcript_api>=0.6.2",  # Use the latest version or specify a version
+    # ... other dependencies
+]
+
 [[package]]
 name = "altair"
 version = "5.5.0"
